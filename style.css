@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* reset marginesów oraz dopełnień */
+html, body, ul, li { margin: 0; padding: 6px; line-height: 1.2em;}
+br {line-height:8px; margin:0px;}
+
+/* reset wysokości linii i fontu */
+h1, h2, ul, li, p { margin: 0; padding: 0; }
+/* ustawienia globalne */
+html, body {font-family:'Lato', Helvetica, tahoma, arial, sans-serif; font-size: 0.625em/1.5em; }
+a {color:#1c769a; text-decoration:none; font-size:1.1em;}
+a:hover {text-decoration:underline;}
+
+/* TYTUŁ */
+h2 {
+	font-size:1.3em;
+	font-weight: normal;
+	text-align:center;
+	color:#414141;
+	margin-bottom:0px; padding:0px;
+}
+h3 {
+	font-size:0.8em;
+	font-weight: normal;
+	text-align:center;
+	color:#8f8f8f;
+	margin-top:3px; padding-top:0px;
+	margin-bottom:25px;
+}
+h3 a { 
+	color:#747474;
+}
+/* CONTENT */ 
+.content {
+	position:relative; 
+	width:100%;   
+	margin:0 auto; 
+}
+.content p {
+	margin-bottom: 10px;
+	font-size:14px;
+	line-height: 20px;
+	color: #454545;
+}
