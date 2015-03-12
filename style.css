@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* reset marginesów oraz dopełnień */
-html, body, ul, li { margin: 0; padding: 6px; line-height: 1.2em;}
+html, body, ul, li { margin: 0; padding: 0px; line-height: 1.2em;}
 br {line-height:8px; margin:0px;}
 
 /* reset wysokości linii i fontu */
@@ -10,30 +10,43 @@ html, body {font-family:'Lato', Helvetica, tahoma, arial, sans-serif; font-size:
 a {color:#1c769a; text-decoration:none; font-size:1.1em;}
 a:hover {text-decoration:underline;}
 
-/* TYTUŁ */
-h2 {
-	font-size:1.3em;
-	font-weight: normal;
-	text-align:center;
-	color:#414141;
-	margin-bottom:0px; padding:0px;
+header.demo {
+    position: fixed;
+    display: block;
+    margin: 0px;
+    height: 50px;
+    width: 100%; 
+    top: 0px;
+    left: 0px;
+    background: #e55f5f;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.38); 
+    z-index: 150;
 }
-h3 {
-	font-size:0.8em;
-	font-weight: normal;
-	text-align:center;
-	color:#8f8f8f;
-	margin-top:3px; padding-top:0px;
-	margin-bottom:25px;
+header.demo * {
+    display: block;
+    color: #a73a3a;
+    font-weight: 100;
+    font-size: 1.0em;
 }
-h3 a { 
-	color:#747474;
+header.demo h2 { 
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    font-size: 1.1em;
+}
+header.demo h2 a {
+    color: #fff;
+}
+header.demo h3 {
+    position: absolute;
+    top: 0px;
+    right: 10px;
 }
 /* CONTENT */ 
 .content {
 	position:relative; 
 	width:100%;   
-	margin:0 auto; 
+    margin: 0 auto;
 }
 .content p {
 	margin-bottom: 10px;
