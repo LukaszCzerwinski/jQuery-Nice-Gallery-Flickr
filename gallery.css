@@ -164,6 +164,8 @@
     color: #fff;
     font-size: 0.9em;
     float: left;
+    font-weight: 100;
+    margin: 0px;
 }
 .viewbox .panel .number {
     color: rgba(0, 0, 0, 0.5);
