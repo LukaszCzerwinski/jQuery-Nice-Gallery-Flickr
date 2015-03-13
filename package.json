@@ -2,6 +2,11 @@
     "name": "jQuery-Nice-Gallery-Flickr",
     "title": "jQuery Nice Gallery Flickr",
     "description": "Build full responsive galleries via Flickr and publish it on your site. We gives the jQuery Gallery plugin for free. Visit official site to see how you can use it on your project.",
+    "main": "/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukaszCzerwinski/jQuery-Nice-Gallery-Flickr.git"
+  },
     "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",
@@ -15,17 +20,8 @@
         "free"
     ],
     "version": "1.0.0",
-    "author": {
-        "name": "Lukasz Czerwinski",
-		"email": "luki2p@gmail.com",
-        "url": "http://luckyjquery.net"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://opensource.org/licenses/MIT"
-        }
-    ],
+    "author": "Lukasz Czerwinski <luki2p@gmail.com>",
+    "license": "Lucky jQuery",
     "bugs": "https://github.com/LukaszCzerwinski/jQuery-Nice-Gallery-Flickr/issues",
     "homepage": "http://luckyjquery.net/jquery-nice-gallery-flickr/", 
     "dependencies": {
